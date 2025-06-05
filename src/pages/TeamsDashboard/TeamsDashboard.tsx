@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTeams } from "../../routes/teams/TeamsContext";
 import "./TeamsDashboard.css";
-
+import { NavLink } from "react-router-dom";
 export default function TeamsDashboard() {
   const {
     paginatedTeams,
@@ -32,6 +32,9 @@ export default function TeamsDashboard() {
       <div className="sort-buttons">
         <button onClick={() => setSortBy("title")}>🔤 Trier par Titre</button>
         <button onClick={() => setSortBy("memberCount")}>👥 Trier par Membres</button>
+           <NavLink to="/" className="home-button">
+        🏠 Accueil
+      </NavLink>
       </div>
 
       <div className="teams-list">

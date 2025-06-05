@@ -1,5 +1,4 @@
-// src/reportWebVitals.ts
-// @ts-ignore
+
 import * as webVitals from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry?: (metric: any) => void) => {
