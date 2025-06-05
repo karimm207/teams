@@ -1,0 +1,129 @@
+.dashboard-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.sort-buttons {
+  margin-bottom: 25px;
+}
+
+.sort-buttons button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.sort-buttons button:hover {
+  background-color: #003d99;
+}
+
+.teams-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 20px;
+}
+
+.team-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card h2 {
+  margin: 0;
+  color: #333;
+}
+
+.team-card p.description {
+  color: #666;
+  margin: 10px 0;
+}
+
+.team-card .members {
+  margin-top: 10px;
+}
+
+.member-badge {
+  display: inline-block;
+  background-color: #dfefff;
+  color: #004080;
+  padding: 4px 10px;
+  margin: 3px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.team-card .manage-button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background-color: #009688;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  margin: 0 6px;
+  border: none;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.manage-members {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 2px solid #ccc;
+  border-radius: 10px;
+}
+.dashboard-container {
+  padding: 20px;
+}
+
+.team-card {
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.member-badge {
+  display: inline-block;
+  background: #e0f0ff;
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.member-line {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.member-details-modal {
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
